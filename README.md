@@ -11,18 +11,3 @@ class SobreMim(Desenvolvedor):
 class Skills(Desenvolvedor):
     def __init__(self):
         self.linguagens = ["Python", "HTML"]
-        self.fraquezas = ["Lembrar de deslogar minhas contas de computadores públicos"]
-
-# Exemplo de uso
-sobre_mim = SobreMim()
-skills = Skills()
-
-print("SOBRE MIM")
-print(f"Nome: {sobre_mim.nome}")
-print(f"Área: {sobre_mim.area}")
-print(f"Contato: {sobre_mim.contato}")
-print(f"Hobbies: {', '.join(sobre_mim.hobbies)}\n")
-
-print("SKILLS")
-print(f"Linguagens: {', '.join(skills.linguagens)}")
-print(f"Fraquezas: {', '.join(skills.fraquezas)}")
