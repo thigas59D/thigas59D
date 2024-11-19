@@ -1,3 +1,5 @@
+´´´python
+
 class Desenvolvedor:
     pass
 
@@ -21,3 +23,4 @@ print(f"Área: {sobre_mim.area}")
 print(f"Contato: {sobre_mim.contato}")
 print(f"Hobbies: {', '.join(sobre_mim.hobbies)}")
 print(f"Linguagens: {', '.join(skills.linguagens)}")
+´´´
