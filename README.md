@@ -1,16 +1,23 @@
-## Hi there 👋
+class Desenvolvedor:
+    pass
 
-<!--
-**thigas59D/thigas59D** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class SobreMim(Desenvolvedor):
+    def __init__(self):
+        self.nome = "Thiago Albuquerque"
+        self.area = "Estudante e Editor"
+        self.contato = "thiago.a.jesus323@gmail.com"
+        self.hobbies = ["Ler livros", "Escutar músicas"]
 
-Here are some ideas to get you started:
+class Skills(Desenvolvedor):
+    def __init__(self):
+        self.linguagens = ["Python", "HTML"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Exemplo de uso
+sobre_mim = SobreMim()
+skills = Skills()
+
+print(f"Nome: {sobre_mim.nome}")
+print(f"Área: {sobre_mim.area}")
+print(f"Contato: {sobre_mim.contato}")
+print(f"Hobbies: {', '.join(sobre_mim.hobbies)}")
+print(f"Linguagens: {', '.join(skills.linguagens)}")
