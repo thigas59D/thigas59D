@@ -14,7 +14,6 @@ class Skills(Desenvolvedor):
     def __init__(self):
         self.linguagens = ["Python", "HTML"]
 
-# Exemplo de uso
 sobre_mim = SobreMim()
 skills = Skills()
 
